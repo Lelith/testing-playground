@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.formRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formRow label {
+  flex-shrink: 0;
+  margin-right: 25px;
+}
+
+.formRow input, .formRow select {
+  width: 250px;
+}
+
+.counter {
+  width: 250px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
